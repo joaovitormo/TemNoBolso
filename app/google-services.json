@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377877483465",
+    "firebase_url": "https://tem-no-bolso-default-rtdb.firebaseio.com/",
+    "project_id": "tem-no-bolso",
+    "storage_bucket": "tem-no-bolso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377877483465:android:6ab3d59bde711dc8416218",
+        "android_client_info": {
+          "package_name": "com.projeto.temnobolso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377877483465-pi6811n1t6i1vuelq6fl5c3g0n7202mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACXEAjEro16LKht9k6mfb29wwe77XMpsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377877483465-pi6811n1t6i1vuelq6fl5c3g0n7202mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

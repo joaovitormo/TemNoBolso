@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.TemNoBolso.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.TemNoBolso.PopupOverlay" />
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_principal" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/receitas"
+        android:onClick="adicionarReceita"
+        style="@style/TextAppearance.AppCompat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="32dp"
+        android:forceDarkAllowed="false"
+        android:tint="@color/white"
+        app:backgroundTint="@color/verde"
+        app:backgroundTintMode="add"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/ic_baseline_add_24" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/despesas"
+        android:onClick="adicionarDespesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="32dp"
+        android:tint="@color/white"
+        app:backgroundTint="@color/negativo"
+        app:fabSize="normal"
+        app:rippleColor="@color/white"
+        app:srcCompat="@drawable/ic_baseline_add_24"
+        tools:ignore="OnClick" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
